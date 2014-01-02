@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT Pomodoro:app
+web: gunicorn -b 0.0.0.0:$PORT app.py
